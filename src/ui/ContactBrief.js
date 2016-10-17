@@ -6,8 +6,8 @@ export default React.createClass({
     return (
       <Link to={"/contact/" + this.props.id}>
         <div className="list">
-          <img src={this.props.image} />
-          <span>{this.props.fname} {this.props.lname}</span>
+          <img className="firstImg"src={this.props.image} />
+          <span className="name">{this.props.fname} {this.props.lname}</span>
         </div>
       </Link>
     )

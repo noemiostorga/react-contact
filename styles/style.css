@@ -4,7 +4,7 @@
     background: #659EC7;
     color: white;
     margin: 0px;
-    padding: 40px;
+    padding: 40px 0px;
 }
 
 .list{
@@ -14,6 +14,8 @@
 	width: 30%;
 	margin: 10px auto;
 }
+
+
 
 img {
   border-radius:50%;
