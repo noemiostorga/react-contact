@@ -8,10 +8,15 @@
 }
 
 .list{
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid lightgrey;
 	font-weight: bolder;
 	width: 80%;
 	margin: 10px auto;
+	color: black;
+}
+
+.list:hover {
+	color: #1F5881;
 }
 
 .name{
