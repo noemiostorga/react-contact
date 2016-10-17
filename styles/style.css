@@ -8,14 +8,16 @@
 }
 
 .list{
-	background: red;
+	border-bottom: 1px solid grey;
 	font-weight: bolder;
-	text-align: center;
-	width: 30%;
+	width: 80%;
 	margin: 10px auto;
 }
 
-
+.name{
+	float: right;
+	margin: 15px auto;
+}
 
 img {
   border-radius:50%;
