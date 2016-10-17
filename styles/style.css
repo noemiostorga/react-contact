@@ -1,3 +1,20 @@
+.header{
+    text-align: center;
+    width: 100%;
+    background: #659EC7;
+    color: white;
+    margin: 0px;
+    padding: 40px;
+}
+
+.list{
+	background: red;
+	font-weight: bolder;
+	text-align: center;
+	width: 30%;
+	margin: 10px auto;
+}
+
 img {
   border-radius:50%;
 }

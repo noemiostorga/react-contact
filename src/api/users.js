@@ -19,17 +19,17 @@ export function getContactList() {
 }
 
 export function getContactById(id) {
-  var contact = users.filter(function(user){
+  var Contact = users.filter(function(user){
     return Number(user.id) === Number(id);
   })
   return {
-    id: contact[0].id,
-    image: contact[0].picture.large,
-    fname: contact[0].name.first,
-    lname: contact[0].name.last,
-    email: contact[0].email,
-    phone: contact[0].phone,
-    city: contact[0].location.city,
-    state: contact[0].location.state
+    id: Contact[0].id,
+    image: Contact[0].picture.large,
+    fname: Contact[0].name.first,
+    lname: Contact[0].name.last,
+    email: Contact[0].email,
+    phone: Contact[0].phone,
+    city: Contact[0].location.city,
+    state: Contact[0].location.state
   }
 }
