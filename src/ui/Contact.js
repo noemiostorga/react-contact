@@ -7,13 +7,14 @@ export default React.createClass({
   },
   render: function () {
     return (
-      <div>
-        <button onClick={this.handleBack}>{"<"}</button>
-        <div><img src={this.props.contact.image} /></div>
+      <div className="individualInfo">
+        
+        <div className="individualHeader"><img src={this.props.contact.image} /></div>
         <p>{this.props.contact.fname} {this.props.contact.lname}</p>
         <p>{this.props.contact.email}</p>
         <p>{this.props.contact.phone}</p>
         <p>{this.props.contact.city}, {this.props.contact.state}</p>
+        <button className="backBtn"onClick={this.handleBack}>{"< back"}</button>
       </div>
     )
   }

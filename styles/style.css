@@ -27,3 +27,41 @@
 img {
   border-radius:50%;
 }
+
+
+
+.individualInfo{
+	width: 80%;
+	margin: 10px auto;
+	text-align: center;
+	border: 1px solid lightgrey;
+
+}
+
+.individualInfo p {
+	font-weight: bolder;
+}
+
+.backBtn{
+	float: left;
+	font-weight: lighter;
+	border: none;
+	background: #659EC7;
+	color: white;
+	margin: 10px auto;
+	transition: 1s background ease;
+
+}
+
+.backBtn:hover {
+	background: #1F5881;
+}
+
+.individualHeader{
+	background: #659EC7;
+}
+
+
+
+
+
