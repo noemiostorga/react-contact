@@ -26731,7 +26731,7 @@
 	      null,
 	      _react2.default.createElement(
 	        'h1',
-	        { className: 'test' },
+	        { className: 'header' },
 	        'My Peeps'
 	      ),
 	      this.props.users.map(function (user) {
@@ -26768,11 +26768,11 @@
 	      { to: "/contact/" + this.props.id },
 	      _react2.default.createElement(
 	        'div',
-	        null,
-	        _react2.default.createElement('img', { src: this.props.image }),
+	        { className: 'list' },
+	        _react2.default.createElement('img', { className: 'firstImg', src: this.props.image }),
 	        _react2.default.createElement(
 	          'span',
-	          null,
+	          { className: 'name' },
 	          this.props.fname,
 	          ' ',
 	          this.props.lname
@@ -27648,15 +27648,10 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      null,
-	      _react2.default.createElement(
-	        'button',
-	        { onClick: this.handleBack },
-	        "<"
-	      ),
+	      { className: 'individualInfo' },
 	      _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'individualHeader' },
 	        _react2.default.createElement('img', { src: this.props.contact.image })
 	      ),
 	      _react2.default.createElement(
@@ -27682,6 +27677,11 @@
 	        this.props.contact.city,
 	        ', ',
 	        this.props.contact.state
+	      ),
+	      _react2.default.createElement(
+	        'button',
+	        { className: 'backBtn', onClick: this.handleBack },
+	        "< back"
 	      )
 	    );
 	  }
