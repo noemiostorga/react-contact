@@ -1,7 +1,6 @@
 {
   "name": "react-contacts",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +26,14 @@
     "version": "1.0.0",
     "description": "",
     "author": ""
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noemiostorga/react-contact.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noemiostorga/react-contact/issues"
+  },
+  "homepage": "https://github.com/noemiostorga/react-contact#readme",
+  "description": ""
 }
